@@ -1,3 +1,23 @@
+/* IMAGES FIXED STYLES */
+.images-fixed {
+  position: fixed;
+  top: 573px;
+  left: 50%;
+  right: 0;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+}
+.image-stars {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+/* end IMAGES FIXED STYLES */
+
+/* CONTENT STYLES */
 .content {
   max-width: 664px;
   width: 100%;
@@ -44,11 +64,12 @@
 .form-search__btn {
   flex-shrink: 0;
 }
+/* end CONTENT STYLES */
 
 /* SCAMMER LIST */
 .alert-scam {
   margin-top: 138px;
-  background-color: var(--bgColor2);
+  background-color: var(--bgColor4);
   border-radius: 16px;
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
