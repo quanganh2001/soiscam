@@ -16,10 +16,6 @@
   </head>
   <body>
     <!-- IMAGES FIXED -->
-    <div class="images-fixed">
-      <img src="./assets/images/shield.png" class="image-shied" />
-      <img src="./assets/images/stars.png" class="image-stars" />
-    </div>
     <div class="effect-circle-1"></div>
     <div class="effect-circle-2"></div>
     <!-- end IMAGES FIXED -->
@@ -32,10 +28,10 @@
       </a>
       <ul class="header__nav-list">
         <li class="header__nav-item">
-          <a href="index.html" class="header__nav-link active">Trang chủ</a>
+          <a href="index.html" class="header__nav-link">Trang chủ</a>
         </li>
         <li class="header__nav-item">
-          <a href="./scammers.html" class="header__nav-link">Scamer</a>
+          <a href="./scammers.html" class="header__nav-link active">Scamer</a>
         </li>
         <li class="header__nav-item">
           <a href="#" class="header__nav-link">Giới thiệu</a>
@@ -45,23 +41,17 @@
     </header>
     <!-- end HEADER -->
 
-    <!-- CONTENT -->
-    <section class="content">
-      <h1 class="content__heading">KIỂM TRA & TỐ CÁO SCAMMER</h1>
-      <p class="content__desc">
-        Website lưu trữ dữ liệu lừa đảo trên mxh mà không chịu bất kỳ hạn chế seach của một thuật toán nào trên Facebook
-      </p>
-      <form class="form-search">
-        <input type="text" placeholder="Kiểm tra số tài khoản ngân hàng..." class="form-search__input" />
-        <button class="btn form-search__btn" type="submit">Tìm kiếm</button>
-      </form>
-    </section>
-    <!-- end CONTENT -->
+    <!-- FORM SEARCH -->
+    <form class="form-search form-search__custom">
+      <input type="text" placeholder="Kiểm tra số tài khoản ngân hàng..." class="form-search__input" />
+      <button class="btn form-search__btn" type="submit">Tìm kiếm</button>
+    </form>
+    <!-- end FORM SEARCH -->
     <div class="container">
       <!-- SCAMMERS -->
-      <section class="alert-scam">
+      <section class="alert-scam alert-scam__custom">
         <div class="alert-scam__header">
-          <h2 class="alert-scam__title title">Hôm nay 21/09/2024</h2>
+          <h2 class="alert-scam__title title">Danh sách scam</h2>
           <p class="alert-scam__desc">CÓ 26 CẢNH BÁO</p>
         </div>
         <ul class="scammer__list">
@@ -110,46 +100,6 @@
         </ul>
       </section>
       <!-- end SCAMMERS -->
-
-      <!-- WARNING -->
-      <section class="warning">
-        <h2 class="warning__title title">Một số kiểu lừa đảo online thường gặp</h2>
-        <ul class="warning__list">
-          <li class="warning__item">
-            <div class="warning__header">
-              <span class="warning__header-icon">
-                <img src="./assets/images/arrow-right.svg" alt="icon" />
-              </span>
-              <h4 class="warning__item-title">Giả mạo tên miền, website</h4>
-            </div>
-            <div class="warning__content">
-              Bọn lừa đảo mua 1 tên miền gần giống (chỉ lệch 1 vài ký tự) sau đó gắn vào web fake có giao diện giống hệt
-              để lừa đảo
-            </div>
-          </li>
-          <li class="warning__item">
-            <div class="warning__header">
-              <img src="./assets/images/arrow-right.svg" alt="icon" />
-              <h4 class="warning__item-title">Giả mạo tên miền, website</h4>
-            </div>
-            <div class="warning__content">
-              Bọn lừa đảo mua 1 tên miền gần giống (chỉ lệch 1 vài ký tự) sau đó gắn vào web fake có giao diện giống hệt
-              để lừa đảo
-            </div>
-          </li>
-          <li class="warning__item">
-            <div class="warning__header">
-              <img src="./assets/images/arrow-right.svg" alt="icon" />
-              <h4 class="warning__item-title">Giả mạo tên miền, website</h4>
-            </div>
-            <div class="warning__content">
-              Bọn lừa đảo mua 1 tên miền gần giống (chỉ lệch 1 vài ký tự) sau đó gắn vào web fake có giao diện giống hệt
-              để lừa đảo
-            </div>
-          </li>
-        </ul>
-      </section>
-      <!-- end WARNING -->
     </div>
   </body>
 
